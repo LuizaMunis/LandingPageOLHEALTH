@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #013A63;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #01B5D3;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero-buttons button:hover {
+    background-color: #017A9B;
+}
+
+.funcionalidades {
+    background-color: #e7f1f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.funcionalidade {
+    margin-bottom: 20px;
+}
+
+.funcionalidade h2 {
+    font-size: 1.8rem;
+    color: #013A63;
+}
+
+.sobre-nos {
+    background-color: #cbe2f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sobre-nos h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #013A63;
+}
+
+.detalhes-funcionalidade {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.funcionalidade-detalhe {
+    margin-bottom: 30px;
+}
+
+.cta {
+    background-color: #013A63;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+.cta form {
+    display: inline-block;
+}
+
+.cta input {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #01B5D3;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.cta button:hover {
+    background-color: #017A9B;
+}
+
+footer {
+    background-color: #013A63;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
