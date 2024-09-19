@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Menu de navegação */
+.navbar {
+    background-color: #013A63;
+    padding: 10px 0; /* Reduz o padding para aproximar do topo */
+    position: fixed; /* Menu fixo no topo */
+    top: 0; /* Garantir que esteja no topo da página */
+    width: 100%; /* Ocupa a largura total da página */
+    z-index: 1000; /* Garantir que o menu fique acima de outros elementos */
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #013A63;
+    color: white;
+    padding: 100px 0 50px; /* Adiciona mais padding superior para compensar o menu fixo */
+    margin-top: 60px; /* Evitar que o conteúdo se sobreponha ao menu */
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hero-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #01B5D3;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero-buttons button:hover {
+    background-color: #017A9B;
+}
+
+.funcionalidades {
+    background-color: #e7f1f8;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.funcionalidade {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.funcionalidade1 .funcionalidade-imagem,
+.funcionalidade3 .funcionalidade-imagem {
+    order: 2;
+}
+
+.funcionalidade-texto {
+    width: 50%;
+}
+
+.funcionalidade-imagem img {
+    width: 200px;
+    height: auto;
+}
+
+.sobre-nos {
+    background-color: #cbe2f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sobre-nos h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #013A63;
+}
+
+.sobre-nos p {
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #013A63;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 80px;
+    height: auto;
+}
