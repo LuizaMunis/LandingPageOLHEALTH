@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,51 +13,115 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
+
+.navbar {
+    background-color: #16425B;
+    padding: 10px 15px; /* Reduz o padding para aproximar do topo */
+    position: fixed; /* Menu fixo no topo */
+    top: 0; /* Garantir que esteja no topo da página */
+    width: 100%; /* Ocupa a largura total da página */
+    z-index: 1000; /* Garantir que o menu fique acima de outros elementos */
 }
 
-.hero {
-    background-color: #013A63;
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
     color: white;
-    padding: 50px 0;
-    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
-.hero h1 {
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.apresentacao {
+    background-color: #16425B;
+    color: white;
+    padding: 100px 0 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.apresentacao-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 80px;
+}
+
+.apresentacao h1 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+  
 }
 
-.hero-buttons button {
+.apresentacao p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+   
+}
+
+.apresentacao-buttons button {
     padding: 10px 20px;
-    margin: 0 10px;
     border: none;
-    background-color: #01B5D3;
+    margin-right: 5px;
+    position: relative;
+    background-color: #3B7CA6;
     color: white;
     cursor: pointer;
     font-size: 1rem;
 }
 
-.hero-buttons button:hover {
-    background-color: #017A9B;
+.apresentacao-buttons button:hover {
+    background-color: #ffff;
+    color:#3B7CA6;
 }
 
 .funcionalidades {
     background-color: #e7f1f8;
     padding: 50px 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .funcionalidade {
-    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.funcionalidade h2 {
-    font-size: 1.8rem;
-    color: #013A63;
+.funcionalidade1 .funcionalidade-imagem,
+.funcionalidade3 .funcionalidade-imagem {
+    order: 2;
+}
+
+.funcionalidade-texto {
+    width: 50%;
+}
+
+.funcionalidade-imagem img {
+    width: 200px;
+    height: auto;
 }
 
 .sobre-nos {
@@ -67,58 +133,22 @@ body {
 .sobre-nos h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #013A63;
+    color: #16425B;
 }
 
-.detalhes-funcionalidade {
-    padding: 50px 0;
-    text-align: center;
-}
-
-.funcionalidade-detalhe {
-    margin-bottom: 30px;
-}
-
-.cta {
-    background-color: #013A63;
-    color: white;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.cta h2 {
-    margin-bottom: 20px;
-}
-
-.cta form {
-    display: inline-block;
-}
-
-.cta input {
-    padding: 10px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-}
-
-.cta button {
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    background-color: #01B5D3;
-    color: white;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
-.cta button:hover {
-    background-color: #017A9B;
+.sobre-nos p {
+    font-size: 1.1rem;
 }
 
 footer {
-    background-color: #013A63;
+    background-color: #16425B;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
+
+footer img {
+    width: 80px;
+    height: auto;
+}
+
