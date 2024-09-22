@@ -241,7 +241,6 @@
     outline: none
 }
 
-
 .fale-conosco button {
     background-color: var(--cor-secundaria); /* Cor de fundo do botão */
     color: white; /* Texto branco */
@@ -256,9 +255,6 @@
     background-color: #CAE2E9; /* Efeito de hover */
     color: var(--cor-principal);
 }
-
-
-
 
 footer {
     background-color: var(--cor-secundaria);
