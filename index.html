@@ -46,14 +46,10 @@
                     <p>Aqui colocamos uma breve descrição da primeira funcionalidade que será explicada.</p>
                 </div>
 
-                <div class="linha-vertical"></div>
-
                 <div class="funcionalidade-texto">
                     <h2>Funcionalidade 2</h2>
                     <p>Aqui colocamos uma breve descrição da segunda funcionalidade que será explicada.</p>
-                </div>
-
-                <div class="linha-vertical"></div>
+                </div>    
 
                 <div class="funcionalidade-texto">
                     <h2>Funcionalidade 3</h2>
@@ -66,9 +62,10 @@
     <section>
         <div class="container-sobre">
             <div class="sobre-nos">
-                <h2>Sobre nós</h2><br>
+                <h1>Sobre nós</h1> <br>
                 <p>Aqui vamos oclocar uma descrição de até duas linhas falando um pouco mais sobre a vantagem de usar a plataforma, se é mobile ou se é web, etc.</p>
             </div>
+
             <div class="funcionalidade-sobre">
                 <div class="funcionalidade-sobre-text">
                     <h1>Aqui vamos explicar a 1ª funcionalidade</h1>
@@ -81,21 +78,60 @@
 
             <div class="funcionalidade-sobre">
                 <div>
-                    <img src="img/img_funcionalidade_2.png" alt="Desenho uma pessoa usando tela digital gigante" class="img-funcionalidades">
+                    <img src="img/img_funcionalidade_2.png" alt="Desenho uma pessoa usando tela digital gigante" id="img-funcionalidades2">
                 </div>
                 <div class="funcionalidade-sobre-text">
                     <h1>Aqui vamos explicar a 2ª funcionalidade</h1>
                     <p>Aqui vamos oclocar uma descrição de até quatro linhas falando um pouco mais sobre a vantagem de usar a funcionalide, se é mobile ou se é web, etc.</p>    
                 </div>
             </div>
+
+            <div id="funcionalidade-sobre3">
+                <div class="funcionalidade-sobre-text">
+                    <h1>Aqui vamos explicar a 1ª funcionalidade</h1>
+                    <p>Aqui vamos oclocar uma descrição de até quatro linhas falando um pouco mais sobre a vantagem de usar a funcionalide, se é mobile ou se é web, etc.</p>    
+                </div>
+                <div>
+                    <img src="img/img_funcionalidade_3.png" alt="Desenho uma pessoa usando tela digital gigante" class="img-funcionalidades">
+                </div>
+            </div>
         </div> 
     </section>
-
+    
+    <section>
+        <div class="fale-conosco">
+            <h1>Deseja adquirir nosso serviço?</h1>
+            <br>
+            <h3>Preencha os campos a seguir e seja atendido em breve por um de nossos colaboradores para descobrir mais sobre o Olhealth.</h3>
+            <br>
+            <div>
+                <div class="input-container">
+                    <div class="input-group">
+                        <label for="nome">Primeiro Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Primeiro Nome">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" name="telefone" placeholder="(00)00000-0000">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="name@exemplo.com">
+                </div>
+            </div>
+            <br>
+            <button>Receba mais informações</button>
+        </div>
+    </section>
+    
 
     <footer>
         <div class="container">
-            <p>© 2024 Olhealth. Todos os direitos reservados.</p>
-            <img src="logo.png" alt="Logo Olhealth">
+            <div id="footer-logo"><img src="img/logo.png" alt="Logo Olhealth"></div>
+            <div></div>
+            
         </div>
     </footer>
 </body>
