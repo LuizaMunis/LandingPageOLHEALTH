@@ -93,25 +93,6 @@
     margin-bottom: 30px;
 }
 
-.apresentacao-buttons button {
-    width: 150px; /* Defina uma largura fixa */
-    padding: 12px; /* Ajuste o padding */
-    border: none;
-    border-radius: 5px;
-    margin: 10px 0; /* Espaço vertical */
-    background-color: var(--cor-secundaria);
-    color: white;
-    cursor: pointer;
-    font-size: 1rem; /* Tamanho da fonte consistente */
-    font-weight: 400;
-}
-
-.apresentacao-buttons button:hover {
-    background-color: #ffff;
-    color: var(--cor-secundaria);
-    font-weight: 400;
-}
-
 .container-funcionalidades {
     padding: 5rem;
     display: flex;
@@ -233,7 +214,7 @@
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 12px 22px;
+    width:3rem;
     cursor: pointer;
     font-size: 20px;
 }
@@ -243,7 +224,7 @@
     color: var(--cor-principal);
 }
 
-/* Estilos para o rodapé */
+
 footer {
     background-color: var(--cor-secundaria);
     color: white;
@@ -351,10 +332,6 @@ footer img {
         margin-right: 0;
     }
 
-    .apresentacao-buttons button {
-        padding: 10px 15px; /* Ajuste em telas menores */
-        font-size: 0.9rem; /* Ajuste do tamanho da fonte */
-    }
 }
 
 @media (max-width: 480px) {
@@ -382,7 +359,7 @@ footer img {
     }
 
     .fale-conosco button {
-        padding: 10px 20px;
+        padding: 10px 15px;
         font-size: 18px;
     }
 }
@@ -405,8 +382,8 @@ footer img {
 }
 
 hr {
-    border: none; /* Remove a borda padrão */
-    height: 2px; /* Espessura da linha */
-    background-color: #3B7CA6; /* Cor da linha */
-    margin: 20px 0; /* Margem em cima e embaixo */
+    border: none; 
+    height: 1px; 
+    background-color: #3B7CA6; 
+    margin: 20px 0; 
 }
