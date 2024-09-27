@@ -117,7 +117,7 @@
 
 .container-sobre {
     padding: 7%;
-    background-color: #CAE2E9;
+    background-color: var(--cor-principal);
 }
 
 .sobre-nos {
@@ -128,12 +128,13 @@
 
     font-size: 2rem;
     font-weight: bold;
-    color: var(--cor-principal);
+    color: white;
 }
 
 .sobre-nos p {
     text-align: justify;
     font-size: 1.2rem;
+    color: white;
 }
 
 .funcionalidade-sobre {
@@ -156,11 +157,12 @@
 
 .funcionalidade-sobre-text h1 {
     font-weight: bold;
-    color: var(--cor-principal);
+    color:rgb(196, 197, 253);
 }
 
 .funcionalidade-sobre-text p{
     font-size: 1.3rem;
+    color: white;
 
 }
 
@@ -185,7 +187,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
     padding: 10%;
 }
 
@@ -210,11 +212,12 @@
 }
 
 .fale-conosco button {
-    background-color: var(--cor-secundaria);
-    color: white;
+    background: white;
+    color: var(--cor-principal);
     border: none;
     border-radius: 5px;
     width:300px;
+    height: 50px;
     cursor: pointer;
     font-size: 20px;
 }
@@ -226,7 +229,7 @@
 
 
 footer {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
     color: white;
     text-align: center;
     padding: 20px 0;
