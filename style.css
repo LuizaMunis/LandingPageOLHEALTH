@@ -152,7 +152,7 @@
 
 .sobre-nos p {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .funcionalidade-sobre {
@@ -402,4 +402,11 @@ footer img {
 }
 .bold-text {
     font-weight: bold;
+}
+
+hr {
+    border: none; /* Remove a borda padrão */
+    height: 2px; /* Espessura da linha */
+    background-color: #3B7CA6; /* Cor da linha */
+    margin: 20px 0; /* Margem em cima e embaixo */
 }
