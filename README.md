@@ -1,6 +1,7 @@
 # LandingPageOLHEARTH
 
 Repositório destinado à criação de uma landing page para o projeto de startups OLHEARTH. Este projeto visa apresentar informações sobre a startup de forma clara e atrativa, facilitando o engajamento de usuários e potenciais investidores.
+link: https://landing-page-olhealth.vercel.app/
 
 ## Descrição do Projeto
 
