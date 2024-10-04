@@ -120,21 +120,28 @@
     background-color: var(--cor-principal);
 }
 
-.sobre-nos {
-    padding-bottom:10rem;
+.sobre-nos{
+    padding: 1%;
+    padding-right: 10%;
 }
 
 .sobre-nos h1 {
 
     font-size: 2rem;
     font-weight: bold;
-    color: white;
+    color: var(--cor-principal);
+}
+
+.chave2{
+    color: var(--cor-principal);
+    font-weight: 500;
 }
 
 .sobre-nos p {
     text-align: justify;
     font-size: 1.2rem;
-    color: white;
+    font-weight: 500;
+    color: black;
 }
 
 .funcionalidade-sobre {
@@ -157,7 +164,7 @@
 
 .funcionalidade-sobre-text h1 {
     font-weight: bold;
-    color:rgb(196, 197, 253);
+    color:white;
 }
 
 .funcionalidade-sobre-text p{
@@ -384,9 +391,19 @@ footer img {
     font-weight: bold;
 }
 
-hr {
-    border: none; 
-    height: 1px; 
-    background-color: #3B7CA6; 
-    margin: 20px 0; 
+
+.container-sobre-2{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;;
+    padding: 5%;
+    padding-right: 0;
+    background-color: #CAE2E9;
+      
 }
+
+.container-sobre-2 img{
+    width: 45rem;
+    height: auto;
+}
+
