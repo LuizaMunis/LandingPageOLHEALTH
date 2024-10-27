@@ -288,6 +288,66 @@ footer img {
         align-items: flex-start;
     }
 
+/* Código adicionado pelo Erik, vai até a linha 354*/
+
+    @media (max-width: 768px) {
+        .funcionalidade-sobre,
+        #funcionalidade-sobre3 {
+            flex-direction: column;
+        }
+    
+        .img-funcionalidades,
+        #img-funcionalidades2 {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    }
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    
+    .funcionalidade-sobre,
+    #funcionalidade-sobre3 {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .funcionalidade-sobre-text,
+    #funcionalidade-sobre3 .funcionalidade-sobre-text {
+        order: 1; 
+        margin-bottom: 20px;
+    }
+
+    .img-funcionalidades,
+    #img-funcionalidades2 {
+        width: 100%; 
+        height: auto; 
+        order: 2;
+    }
+
+    /* Ajustes na seção Sobre Nós */
+    .container-sobre-2 {
+        flex-direction: column;
+        align-items: center; 
+        padding: 5%; 
+    }
+
+    .sobre-nos {
+        order: 1; 
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .container-sobre-2 img {
+        width: 50%; 
+        height: auto; 
+        order: 2; 
+        margin-top: 20px; 
+    }
+}
+
+
+
     .apresentacao-container {
         flex-direction: column;
     }
@@ -375,35 +435,39 @@ footer img {
 }
 
 .chave {
-    background: linear-gradient(90deg,  #81c1d7, #9bf8cc,  #81c1d7);
+    background: linear-gradient(90deg, #81c1d7, #9bf8cc, #81c1d7);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     font-weight: 700;
 }
 
-#destaque{
-    background: linear-gradient(90deg,  #81c1d7, #9bf8cc,  #81c1d7);
+#destaque {
+    background: linear-gradient(90deg, #81c1d7, #9bf8cc, #81c1d7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-weight: 500;
 }
+
 .bold-text {
     font-weight: bold;
 }
 
-
-.container-sobre-2{
+.container-sobre-2 {
     display: flex;
     flex-direction: row;
-    gap: 5%;;
+    gap: 5%;
     padding: 5%;
     padding-right: 0;
     background-color: #CAE2E9;
-      
 }
 
-.container-sobre-2 img{
+.container-sobre-2 img {
     width: 45rem;
     height: auto;
 }
 
+@media (max-width: 768px) {
+    .minha-div {
+      display: none;
+    }
+  }
