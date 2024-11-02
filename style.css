@@ -471,3 +471,113 @@ footer img {
       display: none;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+  .planos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #23495e; /* Cor de fundo da seção principal */
+}
+
+.plano {
+    background-color: #ffffff; /* Cor de fundo das caixas */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.plano h3 {
+    font-size: 1.2em;
+    color: #346c88;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.preco {
+    font-size: 1.8em;
+    color: #23495e;
+    margin: 10px 0;
+}
+
+.preco span {
+    font-size: 0.5em;
+    color: #666666;
+}
+
+.mensal {
+    font-size: 0.9em;
+    color: #346c88;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    color: #666666;
+    margin: 20px 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #e3f1f8;
+    color: #346c88;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #346c88;
+    color: #ffffff;
+}
+
+/* Estilos específicos para cada plano */
+.gratuito {
+    background-color: #f2f7f9;
+}
+
+.familia {
+    background-color: #d4e9f3;
+    font-weight: bold;
+}
+
+.clinicas {
+    background-color: #eef7fa;
+}
+
+
+
+
+
+
+.titulo-planos {
+    background-color:#23495e; /* Mesma cor de fundo das caixas de plano */
+    text-align: center;
+    padding: 20px 0; /* Espaço em volta do título */
+    color: #FFFFFF; /* Título em branco */
+    margin: 0; /* Remover margens para alinhar com o fundo */
+}
+
+.titulo-planos h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0; /* Remover margem extra ao redor do título */
+}
