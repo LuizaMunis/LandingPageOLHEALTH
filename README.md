@@ -1,4 +1,4 @@
-# LandingPageOLHEARTH
+# LandingPageOLHEALTH
 
 Repositório destinado à criação de uma landing page para o projeto de startups OLHEARTH. Este projeto visa apresentar informações sobre a startup de forma clara e atrativa, facilitando o engajamento de usuários e potenciais investidores.
 
