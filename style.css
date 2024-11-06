@@ -88,6 +88,8 @@ li a:hover {
 
 #imagem-home{
     display: flex;
+    align-items: center;
+
 }
 
 #home img{
@@ -97,9 +99,24 @@ li a:hover {
 
 /***botoes***/
 
+#botoes-home{      /* Para definir espamento entre os botões*/
+    display: flex;
+    gap: 0.50rem;
+}
+
 #botao-fale-conosco{
     padding: 0.625rem 1.25rem;
     background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#botao-saiba-mais{
+    padding: 0.625rem 1.60rem;
+    background-color: aliceblue;
+    color: #4a90e2;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
