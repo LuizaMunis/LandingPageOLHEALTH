@@ -61,12 +61,12 @@ li a:hover {
     height: auto;
 }
 
-/*************************HOME*********************************************************************/
+/*****************************HOME***************************************************************/
 
 #home{
     display: flex;
     background-color: #16425B;
-    height: 68vh;
+    height: auto
 }
 
 #texto-home{                      /*div do texto*/
@@ -74,7 +74,7 @@ li a:hover {
     flex-direction: column;       
     justify-content: center;
     padding: 0rem 2rem;
-    width: 65rem;
+    width: 65%;
 }
 
 #home h1 {
@@ -82,20 +82,17 @@ li a:hover {
     font-weight: 600;
 }
 
-
-
 /****imagem****/
 
 #imagem-home{
     display: flex;
-    align-items: center;
-
 }
 
-#home img{
-    width: 100%;
+#home img {
+    width: 90%;
     height: auto;
 }
+
 
 /***botoes***/
 
@@ -111,6 +108,8 @@ li a:hover {
     border-radius: 5px;
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #botao-saiba-mais{
@@ -121,4 +120,184 @@ li a:hover {
     border-radius: 5px;
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+#botao-fale-conosco:hover{
+    background-color: var(--cor-secundaria);
+}
+
+#botao-saiba-mais:hover{
+    background-color: var(--cor-secundaria);
+    color: aliceblue;
+}
+
+/**********************************APRESENTAÇÃO*****************************************************************/
+
+#apresentacao{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    padding: 2rem;
+}
+
+.textos-apresentacao{
+    padding: 3rem;
+}
+
+hr{                           
+    border:  1px solid aliceblue;     
+}
+
+/******************************Funcionalidades******************************************************************************/
+
+#funcionalidades{
+    background-color: var(--cor-principal);
+    display: grid;              /* Define o container como grid */
+    place-items: center;
+    padding: 5rem 0rem 2rem 0rem;
+}
+
+
+.funcionalidade-divs{
+    display: flex;
+    width:80%;
+    padding: 0rem 8rem 0rem 8rem;
+}
+
+.funcionalidade-divs p{
+    font-size:1.1rem ;
+}
+
+.funcionalidade-divs h1{
+    font-size:1.8rem ;
+    font-weight: 500;
+}
+
+
+
+/***********1 div Funcionalidade**********/
+
+#funcionalidade1-img{
+    display: flex;
+}
+
+#funcionalidade1-img img{
+    width: 31vw;    /* Define uma largura fixa para a imagem */
+    height: auto;    /* Mantém a proporção da imagem */
+}
+
+#elemento1{  /* imgem das bolinhas*/
+    position: relative;
+    top: 3rem;
+    left: -45%;
+    width: 5vw;
+}
+
+/***********2 div Funcionalidade**********/
+
+#funcionalidade2-img img{
+    width: 23vw;    /* Define uma largura fixa para a imagem */
+    height: auto;    /* Mantém a proporção da imagem */
+    margin-right: 3rem;
+}
+
+#elemento2{  /* imgem das bolinhas*/
+    position: relative;
+    top: 25rem;
+    right: -45%;
+    width: 8vw;
+}
+
+
+/***********3 div Funcionalidade**********/
+
+#funcionalidade3-img img{
+    width: 31vw;    /* Define uma largura fixa para a imagem */
+    height: auto;    /* Mantém a proporção da imagem */
+    margin-right: 3rem;
+}
+
+#elemento3{  /* imgem das bolinhas*/
+    position: relative;
+    top: 3rem;
+    left: -48%;
+    width: 6vw;
+}
+
+/********************************PLANOS***********************************************************/
+
+#titulo-plano {
+    background-color: #AFD7E2;
+    text-align: center;
+    box-shadow: inset 0px 25px 15px rgba(22, 66, 91, 0.3); /* Sombra interna no topo */
+}
+
+
+#titulo-plano h1{
+    padding-top: 5rem;
+    color: var(--cor-principal);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+/**********CARDS***********/
+
+#container-planos{
+    display: flex;
+    justify-content: center;
+    background-color: #AFD7E2;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+.plano{
+    text-align: center;
+    background-color: aliceblue;
+    width: 20rem;
+    height: 25rem; /*tamanho dos cards*/
+    border-radius: 10px;
+}
+
+/***********textos************************/
+.plano h3{
+    color:  #4a90e2;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.plano p{
+    color: var(--cor-principal);
+    font-weight: 600;
+}
+
+.plano ul{
+    list-style-type: none; 
+    padding-top: 2rem;
+}
+.plano li{
+    color: #3B7CA6;
+}
+
+.preco{
+    font-size: 2rem;
+}
+
+.preco-span{
+    font-size: 2rem;
+    color:var(--cor-principal);
+
+}
+
+/******************BOTÃO********************************/
+
+.plano button{
+    color: #4a90e2;
+    border: solid#4a90e2;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-size: 1rem;
+}
+
