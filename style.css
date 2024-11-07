@@ -178,9 +178,6 @@ hr{
 
 /***********1 div Funcionalidade**********/
 
-#funcionalidade1-img{
-    display: flex;
-}
 
 #funcionalidade1-img img{
     width: 31vw;    /* Define uma largura fixa para a imagem */
@@ -230,7 +227,7 @@ hr{
 #titulo-plano {
     background-color: #AFD7E2;
     text-align: center;
-    box-shadow: inset 0px 25px 15px rgba(22, 66, 91, 0.3); /* Sombra interna no topo */
+    box-shadow: inset 0px 25px 15px rgba(34, 109, 152, 0.2); /* Sombra interna no topo */
 }
 
 
@@ -255,16 +252,19 @@ hr{
     text-align: center;
     background-color: aliceblue;
     width: 20rem;
-    height: 25rem; /*tamanho dos cards*/
+    height: 22rem; /*tamanho dos cards*/
     border-radius: 10px;
+    transition: all 0.3s ease;
+    color: var(--cor-principal);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /***********textos************************/
 .plano h3{
-    color:  #4a90e2;
+    color: var(--cor-secundaria);
     font-size: 1.5rem;
     font-weight: 700;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .plano p{
@@ -292,12 +292,137 @@ hr{
 
 /******************BOTÃO********************************/
 
-.plano button{
-    color: #4a90e2;
-    border: solid#4a90e2;
+.plano button{   /*para mexer nos botões*/
+    color: aliceblue;
+    border: none;
     padding: 0.5rem;
     border-radius: 5px;
-    background-color: aliceblue;
-    font-size: 1rem;
+    background-color: var(--cor-secundaria);
+    font-size: 1rem;  
 }
 
+.botoes{ /*para mexer na altura dos botões gratuito e familia*/
+    margin-top: 4rem;
+}
+
+
+/*******card da clinica*********/
+
+#botao-clinica{ /*botaão clinica, para fica do mesma altura*/
+    margin-top: 2.5rem;
+}
+
+/****************animações************************************/
+
+.plano:hover {
+    background-color: #16425B;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plano:hover p{
+    color: aliceblue;
+}
+.plano:hover h3{
+    color: #A5D6A7;
+}
+
+.plano:hover li {
+    color: #A5D6A7; /* Cor das listas quando o mouse passa por cima */
+}
+
+
+.plano:hover .preco-span {
+    color: aliceblue; /* Cor do preço em destaque quando o mouse passa por cima */
+}
+
+.plano:hover button{
+    border: solid#A5D6A7;
+    background-color: #A5D6A7;
+    color: #16425B;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/************************************************SOBRE NÓS**************************************************/
+
+#sobre-nos{
+    background-color: var(--cor-principal);
+    display: flex;
+    padding: 10rem;
+    gap: 5rem;
+    justify-content: center;
+}
+
+#sobre-nos img{
+    width: 33vw;
+    height: auto;
+}
+
+#img-sobre-nos{
+    display: flex;
+    max-width: 50rem;
+    align-items: center;
+}
+
+#sobre-nos h1{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#sobre-nos p{
+    font-size: 1.1rem;
+}
+
+/***********************************************CONTATO**************************************************/
+#contato{
+    background-color: var(--cor-secundaria);
+    padding: 6rem;
+}
+
+#contato h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#contato p{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#contato button{
+    padding: 0.8rem;
+    color: #16425B;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+#contato button:hover {
+    background-color: #a9d1df;
+}
+
+/********************************************FOOTER******************************************************/
+
+footer{
+    background-color:var(--cor-principal) ;
+    padding: 3rem;
+}
+
+#rodape{
+    display: flex;
+    gap: 0.5rem;
+}
+
+footer img{
+    width: 6vw;
+    padding-bottom: 1rem;
+}
+
+#rodape img{
+    width: 1.4rem;
+    height: auto;
+
+}

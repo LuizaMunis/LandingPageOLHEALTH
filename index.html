@@ -114,16 +114,18 @@
              <h1>Planos</h1>
          </div>
 
-         <section id="container-planos">  <!-- PLANOS-->
+         <section id="container-planos">                     <!-- PLANOS-->
             <div class="plano">
                 <h3>GRATUITO</h3>
-                <p class="preco">R$ 0</p>
+                <p class="preco">R$ 0<span class="preco-span">/mês</span></p>
                 <ul>
                     <li>1 paciente</li>
                     <li>1 responsável</li>
                     <li>Monitoramento completo</li>
                 </ul>
-                <button>Teste gratuitamente</button>
+                <div class="botoes">
+                    <button>Teste gratuitamente</button>
+                </div>
             </div>
 
             <div class="plano">
@@ -134,7 +136,9 @@
                     <li>+ Profissional</li>
                     <li>+ Monitoramento completo</li>
                 </ul>
-                <button>Adquirir agora</button>
+                <div class="botoes">
+                    <button>Adquirir agora</button>
+                </div>
             </div>
 
             <div class="plano">
@@ -146,12 +150,44 @@
                     <li>+ Profissional</li>
                     <li>+ Sistema de gestão</li>
                 </ul>
-                <button>Fazer um orçamento</button>
+                <div id="botao-clinica">
+                    <button>Fazer um orçamento</button>
+                </div>
             </div>
-
          </section>
 
+         <section id="sobre-nos">                                <!-- SOBRE NÓS-->     
+            <div id="img-sobre-nos">
+                <img src="img/img_sobre_nos.png" alt="Desenhos de dois idodos com quadtro crianças em frente a uma casa.">
+            </div>
+            <div id="texto-sobre-nos">
+                <h1>Sobre nós</h1>
+                <p>
+                    Somos uma plataforma que adota um único princípio: 
+                    <span class="destaque">proporcionar uma vida digna aos idosos por meio da automatização de atividades corriqueiras, permitindo que o cuidador se concentre naquilo que realmente importa - cuidar de quem precisa.</span><br><br>
+                    Sabemos que os cuidados diários podem ser desafiadores, tanto para os profissionais quanto para as famílias. Por isso, desenvolvemos uma solução que vai além da simples assistência.<br><br>
+                    Junte-se a nós nessa missão de valorização da vida dos idosos. Com a nossa tecnologia, estamos prontos para redefinir o cuidado, unindo inovação e compaixão. Afinal,  <span class="destaque">cuidar é um ato de amor</span>, e estamos aqui para garantir que esse amor chegue a cada idoso de maneira digna e respeitosa.
+                </p>
+            </div>
+         </section>
+
+         <section id="contato">                                       <!-- Contato-->
+            <h1>Deseja ser amaparado por nós?</h1>
+            <p>Se você deseja tornar a rotina de cuidados do idoso mais tranquila, preencha os campos a seguir que um de nossos atendentes falará diretamente com você.
+            </p>
+            <button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSfuaf8eetncvPdUYRNqEHWlRC2iym-IAr81MFVDMrLcvPDQnQ/viewform?usp=sf_link'">Receba mais informações</button>
+         </section>
     </main>
     
+    <footer>
+        <img src="img/logo.png" alt="Logo">
+        <div id="rodape">
+            <img src="img/icon_local.png" alt="icon de localização">
+            <p>Universidade Católica de Brasília, QS.07, Lt.1, Taguatinga Sul- Taguatinga, Brasília - DF</p>
+        </div>
+    </footer>
+
+    <script src="js/java.js"></script>
+
 </body>
 </html>
