@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,187 +7,207 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container navbar-content">
-            <div class="logo">
-                <img src="img/logo.png" alt="Olhealth Logo"> 
-            </div>
-            <ul class="menu">
+
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="logo olhealth">
+        </div>
+        <nav>
+            <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#Sobre-nos">Sobre Nós</a></li>
-                <li><a href="#planos">Nossos Planos</a></li> <!-- Novo item adicionado -->
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-        </div>
-    </nav>
-    
-
-    <header class="apresentacao" id="home">
-        <div class="apresentacao-container">
-            <div class="apresentacao-texto">  
-                <h1>Use seu tempo para <span class="chave">cuidar</span> <br>de quem realmente <span class="chave">importa</span>.</h1>
-                <h2>Cuidar da saúde do idoso está muito além de dar o medicamento na hora certa, pois <span id="destaque">isso nós fazemos por você</span>. </h2><br>
-
-                <div class="botoes-container">
-                    <button class="botao-azul">Fale conosco</button>
-                    <button class="botao-branco">Saiba mais</button>
-                </div>
-    
-            </div>
-
-            <div class="apresentacao-imagem">
-                <img src="img/bro.png" alt="Desenho de doutor e remedios">
-            </div>
-        </div>    
+        </nav>
     </header>
 
-    <section>
-        <div class="container-funcionalidades-geral">
-            <div class="container-funcionalidades">
-                <div class="funcionalidade-texto">
-                    <h2>Falem a mesma língua</h2>
-                    <p>Médicos, cuidadores e filhos conseguem tomar melhores decisões quando todos estão a par das circunstâncias.</p>
+    <main>
+        <section id="home">      
+            <div id="texto-home">
+                <h1>Use seu tempo para <span class="destaque3">cuidar</span> <br>de quem realmente <span class="destaque3">importa</span>.</h1>
+                <h2>Cuidar da saúde do idoso está muito além de dar o medicamento na hora certa, pois <span class="destaque">isso nós fazemos por você</span>. </h2><br>
+
+                <div id="botoes-home">
+                    <button id="botao-fale-conosco">Fale conosco</button>
+                    <button id="botao-saiba-mais">Saiba mais</button>
                 </div>
-
-                <div class="funcionalidade-texto">
-                    <h2>Tire o peso da sua mente</h2>
-                    <p>Programe lembretes para gerenciar os cuidados com o idoso, sem que isso se torne uma preocupação para você.</p>
-                </div>    
-
-                <div class="funcionalidade-texto">
-                    <h2>Tudo em um único lugar</h2>
-                    <p>Monitore o que é importante para cuidar da saúde de quem você ama e compartilhe facilmente com quem te apoia nessa jornada.</p>
-                </div> 
             </div>
-        </div>
-    </section>
 
-    
-    <section id="sobre-nos">
-        <div class="container-sobre">
-            <div class="funcionalidade-sobre">
-                <div class="funcionalidade-sobre-text">
+            <div id="imagem-home">
+                <img src="img/bro.png" alt="desenho de uma médico ao lado de remédios"> 
+            </div>
+
+        </section>
+
+        <section id="apresentacao">
+            <div class="textos-apresentacao">
+                <h2 class="texto-edicao">Falem a mesma língua</h2>
+                <p>Médicos, cuidadores e filhos conseguem tomar melhores decisões quando todos estão a par das circunstâncias.</p>
+            </div>
+
+
+            <div class="textos-apresentacao">
+                <h2 class="texto-edicao">Tire o peso da sua mente</h2>
+                <p>Programe lembretes para gerenciar os cuidados com o idoso, sem que isso se torne uma preocupação para você.</p>
+            </div>
+
+           
+
+            <div class="textos-apresentacao">
+                <h2 class="texto-edicao">Tudo em um único lugar</h2>
+                <p>Monitore o que é importante para cuidar da saúde de quem você ama e compartilhe facilmente com quem te apoia nessa jornada.</p>
+            </div>
+         </section>
+
+         <section id="funcionalidades">
+
+            <img src="img/elemento.png" alt="" id="elemento1"> <!-- Imagem das bolinhas-->
+
+            <div class="funcionalidade-divs"> <!-- Funcionalidade 1-->
+                <div>
                     <h1>Uma comunicação que une</h1><br>
                     <p>Simplifique o cuidado e mantenha todos conectados com informações essenciais em um só lugar. 
                         Aqui, você registra tudo o que precisa — medicamentos, consultas e sinais vitais — usando apenas a ferramenta que está sempre com você.
                         Além de mantermos um histórico completo de doenças registradas, possibilitamos o rastreamento de potenciais condições de saúde.
                     </p>    
                 </div>
-                <div>
-                    <img src="img/img_funcionalidade_1.png" alt="Desenho uma pessoa usando tela digital gigante" class="img-funcionalidades">
+                <div id="funcionalidade1-img">
+                    <img src="img/img_funcionalidade_1.png" alt="desenho de duas pessoas no consultorio">
                 </div>
             </div>
 
-            <div class="funcionalidade-sobre">
-                <div>
-                    <img src="img/img_funcionalidade_2.png" alt="Desenho uma pessoa usando tela digital gigante" id="img-funcionalidades2">
+            <img src="img/elemento.png" alt="" id="elemento2"> <!-- Imagem das bolinhas-->
+
+
+            <div class="funcionalidade-divs"> <!-- Funcionalidade 2-->
+                <div id="funcionalidade2-img">
+                    <img src="img/img_funcionalidade_2.png" alt="desenho um cuidador, medica e uma idosa na cadeira de rodas">
                 </div>
-                <div class="funcionalidade-sobre-text">
+                <div>
                     <h1>Permita ser ajudado</h1><br>
                     <p>Utilize a função de ativar lembretes para ser notificado do horário de medicamentos, datas de consulta e tantas outras coisas que você precisa se lembrar. 
-                        <span class="chave">Lembre-se: estamos aqui para fazer tudo aquilo que você puder terceirizar.</span></p>    
-                </div>
-            </div>
-
-            <div id="funcionalidade-sobre3">
-                <div class="funcionalidade-sobre-text">
-                    <h1>Seu assistente inteligente</h1><br>
-                    <p>Com base nos seus registros diários, geramos relatórios detalhados que podem ser utilizados por médicos e cuidadores para tomar <span class="chave">decisões</span> mais assertivas sobre a saúde de quem você cuida.
+                        <span class="destaque4">Lembre-se: estamos aqui para fazer tudo aquilo que você puder terceirizar.</span>
                     </p>    
                 </div>
+            </div>
+
+            
+            <img src="img/elemento.png" alt="" id="elemento3"> <!-- Imagem das bolinhas-->
+
+
+            <div class="funcionalidade-divs"> <!-- Funcionalidade 2-->
                 <div>
-                    <img src="img/img_funcionalidade_3.png" alt="Desenho uma pessoa usando tela digital gigante" class="img-funcionalidades">
+                    <h1>Seu assistente inteligente</h1><br>
+                    <p>Com base nos seus registros diários, geramos relatórios detalhados que podem ser utilizados por médicos e cuidadores para tomar <span class="destaque4">decisões</span> mais assertivas sobre a saúde de quem você cuida.
+                    </p>    
+                </div>
+                <div id="funcionalidade3-img">
+                    <img src="img/img_funcionalidade_3.png" alt=" Desenho de médica analisando exames">
                 </div>
             </div>
-        </div> 
-    </section>
+         </section>
 
+    
+         <div id="titulo-plano">
+            <img src="img/elemento.png" alt="" id="elemento-plano1"> <!-- Imagem das bolinhas-->
 
-    <div class="titulo-planos" id="planos"> <!-- Adicionado o ID aqui -->
-        <h2>Nossos Planos</h2>
-    </div>
-    
-    
-    <div class="planos-container">
-        <div class="plano">
-            <h3>GRATUITO</h3>
-            <p class="preco">R$ 0 <span>/ano</span></p>
-            <ul>
-                <li>1 paciente</li>
-                <li>1 responsável</li>
-                <li>Monitoramento completo</li>
-            </ul>
-            <button>Teste gratuitamente</button>
-        </div>
-    
-        <div class="plano">
-            <h3>FAMÍLIA</h3>
-            <p class="preco">R$ 45 <span>/mês</span></p>
-            <p class="preco-anual">R$ 540/ano</p>
-            <ul>
-                <li>+ Monitoramento completo</li>
-                <li>+ Profissional</li>
-            </ul>
-            <button>Adquirir agora</button>
-        </div>
-    
-        <div class="plano">
-            <h3>CLÍNICAS</h3>
-            <p class="preco-anual">A partir</p>
-            <p class="preco">R$ 235 <span>/mês</span></p>
-            <ul>
-                <li>+ Sistema de gestão</li>
-                <li>+ Pacientes</li>
-                <li>+ Profissional</li>
-            </ul>
-            <button>Fazer um orçamento</button>
-        </div>
-    </div>
-    
+             <h1>Planos</h1>
+             <h2>Confira nossas ofertas e escolha aquela que se adequa às suas condições. Afinal, <span class="destaque3">cuidar é um ato de amor.</span> </h2>
+         </div>
 
-    <section class="sobre">     
-        <div class="container-sobre-2 " id="Sobre-nos">
+         <section id="container-planos">                     <!-- PLANOS-->
+            <div class="plano">
+                <h3>GRATUITO</h3>
+                <p class="preco">R$ 0<span class="preco-span">/mês</span></p>
+                <ul>
+                    <li>1 paciente</li>
+                    <li>1 responsável</li>
+                    <li>Monitoramento completo</li>
+                </ul>
+                <div class="botoes">
+                    <button>Teste gratuitamente</button>
+                </div>
+            </div>
 
-                <div class="minha-div">
-                    <img src="img/idosos.png" alt="Idosa na cadeira de rodas feliz com filha e neta"> 
-                </div>   
-            <div class="sobre-nos">
-                <h1>Sobre nós</h1> <br>
+            <div class="plano">
+                <h3>FAMÍLIA</h3>
+                <p class="preco">R$ 45 <span class="preco-span">/mês</span></p>
+                <p>R$ 540/ano</p>
+                <ul>
+                    <li>+ Profissional</li>
+                    <li>+ Monitoramento completo</li>
+                </ul>
+                <div class="botoes">
+                    <button>Adquirir agora</button>
+                </div>
+            </div>
+
+            <div class="plano">
+                <h3>CLÍNICAS</h3>
+                <p>A partir</p>
+                <p class="preco">R$ 235 <span class="preco-span">/mês</span></p>
+                <ul>
+                    <li>+ Pacientes</li>
+                    <li>+ Profissional</li>
+                    <li>+ Sistema de gestão</li>
+                </ul>
+                <div id="botao-clinica">
+                    <button>Fazer um orçamento</button>
+                </div>
+            </div>
+         </section>
+
+         <div id="titulo-plano">
+            <img src="img/elemento.png" alt="" id="elemento-plano2"> <!-- Imagem das bolinhas-->
+         </div>
+
+         <div id="titulo-plano">
+            <img src="img/elemento.png" alt="" id="elemento-plano1"> <!-- Imagem das bolinhas-->
+         </div>
+         
+         <section id="sobre-nos">                                <!-- SOBRE NÓS-->     
+            <div id="img-sobre-nos">
+                <img src="img/idosos.png" alt="Desenhos de dois idodos com quadtro crianças em frente a uma casa.">
+            </div>
+            <div id="texto-sobre-nos">
+                <h1>Sobre nós</h1>
                 <p>
                     Somos uma plataforma que adota um único princípio: 
-                    <span class="chave2">proporcionar uma vida digna aos idosos por meio da automatização de atividades corriqueiras, permitindo que o cuidador se concentre naquilo que realmente importa - cuidar de quem precisa.</span><br><br>
+                    <span class="destaque">proporcionar uma vida digna aos idosos por meio da automatização de atividades corriqueiras, permitindo que o cuidador se concentre naquilo que realmente importa - cuidar de quem precisa.</span><br><br>
                     Sabemos que os cuidados diários podem ser desafiadores, tanto para os profissionais quanto para as famílias. Por isso, desenvolvemos uma solução que vai além da simples assistência.<br><br>
-                    Junte-se a nós nessa missão de valorização da vida dos idosos. Com a nossa tecnologia, estamos prontos para redefinir o cuidado, unindo inovação e compaixão. Afinal,  <span class="chave2">cuidar é um ato de amor</span>, e estamos aqui para garantir que esse amor chegue a cada idoso de maneira digna e respeitosa.
-                </p>             
+                    Junte-se a nós nessa missão de valorização da vida dos idosos. Com a nossa tecnologia, estamos prontos para redefinir o cuidado, unindo inovação e compaixão. Afinal,  <span class="destaque">cuidar é um ato de amor</span>, e estamos aqui para garantir que esse amor chegue a cada idoso de maneira digna e respeitosa.
+                </p>
             </div>
-          </div>
-    </section>
-    
-    <section id="contato">
-        <div class="fale-conosco">
-            <h1>Deseja ser amparado por nós?</h1>
-            <br>
-            <h2>Se você deseja tornar a rotina de cuidados do idoso mais tranquila, preencha os campos a seguir que um de nossos atendentes falará diretamente com você.</h2>
-            <br>
-            <br>
+         </section>
+
+         <div id="titulo-plano">
+            <img src="img/elemento.png" alt="" id="elemento-plano2"> <!-- Imagem das bolinhas-->
+         </div>
+
+         <section id="contato">                                     <!-- Contato-->
+            <h1>Deseja ser amaparado por nós?</h1>
+            <p>Se você deseja tornar a rotina de cuidados do idoso mais tranquila, preencha os campos a seguir que um de nossos atendentes falará diretamente com você.
+            </p>
             <button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSfuaf8eetncvPdUYRNqEHWlRC2iym-IAr81MFVDMrLcvPDQnQ/viewform?usp=sf_link'">Receba mais informações</button>
-        </div>
-    </section>
+         </section>
+
+    </main>
     
     <footer>
-        <div class="container">
-            <div id="footer-logo">
-                <img src="img/logo.png" alt="Logo Olhealth">
-            </div>
-            <div id="footer-contact">
-                <div class="contact-item">
-                    <img src="img/icon_local.png" alt="Ícone Local">
-                    <p>Universidade Católica de Brasília, QS.07, Lt.1, Taguatinga Sul- Taguatinga, Brasília - DF</p>
-                </div>
-            </div>
+        <img src="img/logo.png" alt="Logo">
+        <div id="rodape">
+            <img src="img/icon_local.png" alt="icon de localização">
+            <p>Universidade Católica de Brasília, QS.07, Lt.1, Taguatinga Sul- Taguatinga, Brasília - DF</p>
         </div>
     </footer>
 
     <script src="js/java.js"></script>
+
 </body>
 </html>
+
+
+
+
+
